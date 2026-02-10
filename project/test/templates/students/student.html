@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% block content%}
+    <table border="1">
+    <thead>
+        <th>id</th>
+        <th>Nom</th>
+        <th>email</th>
+        <th>age</th>
+        <th>Created At</th>
+        <th>edit</th>
+    </thead>
+    <tbdody>
+    {% for p in pro%}
+    <tr>
+    <td>{{p.id}}</td>
+    <td>{{p}}</td>
+    <td>{{p.email}}</td>
+    <td>{{p.age}}</td>
+    <td>{{p.created_at}}</td>
+    <th> <a href="{% url 'editform' p.id %}">edit</a>
+    <a href="{% url 'delete' p.id %}">Delete</a></th>
+    </tr>
+    {% endfor %}
+    </tbdody>
+    </table>
+    <a href="{% url 'student_from'%}">Add User</a>
+    {% endblock %}
+</body>
+</html>
