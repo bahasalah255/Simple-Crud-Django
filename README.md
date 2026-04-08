@@ -1,4 +1,4 @@
-# 🐍 Simple CRUD — Django
+#  Simple CRUD — Django
 
 <div align="center">
 
