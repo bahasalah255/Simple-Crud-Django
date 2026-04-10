@@ -14,24 +14,24 @@
 
 ---
 
-## 📖 About
+##  About
 
 **Simple-Crud-Django** is a beginner-friendly Django project demonstrating the four core database operations — **Create, Read, Update, Delete (CRUD)**. It's a great starting point for learning Django's MVT architecture, URL routing, views, models, and templates.
 
 ---
 
-## ✨ Features
+##  Features
 
-- ➕ **Create** — Add new records via a form
-- 📋 **Read** — List and view all records
-- ✏️ **Update** — Edit existing records
-- 🗑️ **Delete** — Remove records with confirmation
-- 🗄️ SQLite database (zero config, built-in)
-- 🧩 Django MVT architecture (Models, Views, Templates)
+-  **Create** — Add new records via a form
+-  **Read** — List and view all records
+-  **Update** — Edit existing records
+-  **Delete** — Remove records with confirmation
+-  SQLite database (zero config, built-in)
+-  Django MVT architecture (Models, Views, Templates)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Role |
 |------------|------|
@@ -42,7 +42,7 @@
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Simple-Crud-Django/
@@ -66,7 +66,7 @@ Simple-Crud-Django/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -110,7 +110,7 @@ Simple-Crud-Django/
 
 ---
 
-## 🔑 Admin Panel
+##  Admin Panel
 
 Create a superuser to access the Django admin panel:
 
@@ -122,7 +122,7 @@ Then visit: `http://127.0.0.1:8000/admin/`
 
 ---
 
-## 📌 What I Learned
+##  What I Learned
 
 - Django project & app structure
 - Defining models and running migrations
@@ -133,7 +133,7 @@ Then visit: `http://127.0.0.1:8000/admin/`
 
 ---
 
-## 🔭 Future Improvements
+##  Future Improvements
 
 - [ ] Add user authentication
 - [ ] Style with Bootstrap or Tailwind CSS
@@ -143,14 +143,14 @@ Then visit: `http://127.0.0.1:8000/admin/`
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Salah Baha**
 🔗 GitHub: [@bahasalah255](https://github.com/bahasalah255)
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
@@ -158,6 +158,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-⭐ If this helped you learn Django, consider giving it a star!
+ If this helped you learn Django, consider giving it a star!
 
 </div>
